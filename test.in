@@ -1,0 +1,10 @@
+/open Orderable.java
+/open Food.java
+/open Menu.java
+Menu menu = new Menu();
+menu.add("Burger", "Cheese Burger", 100);
+menu.add("Snacks", "Fries", 200);
+menu.add("Burger", "Double Cheese Burger", 300);
+menu.add("Drinks", "Coke", 300);
+menu.print();
+/exit;
